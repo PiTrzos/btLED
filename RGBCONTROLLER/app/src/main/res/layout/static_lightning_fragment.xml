@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/saveColorBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/round_button"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/RGBspectrum"
+        app:layout_constraintEnd_toStartOf="@+id/favColorsBtn"
+        app:layout_constraintStart_toEndOf="@+id/onOffBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/save" />
+
+    <ImageButton
+        android:id="@+id/onOffBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/round_button"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/RGBspectrum"
+        app:layout_constraintStart_toStartOf="@+id/RGBspectrum"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/on_off" />
+
+    <TextView
+        android:id="@+id/brightnessText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brightness:"
+        app:layout_constraintBottom_toTopOf="@+id/BrightnessSeekBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/RGBspectrum"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rgb_spectrum" />
+
+    <SeekBar
+        android:id="@+id/BrightnessSeekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="20dp"
+        android:max="255"
+        android:min="0"
+        android:progress="125"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/favColorsBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/round_button"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/RGBspectrum"
+        app:layout_constraintEnd_toEndOf="@+id/RGBspectrum"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart_w" />
+</androidx.constraintlayout.widget.ConstraintLayout>
