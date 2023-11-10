@@ -56,7 +56,7 @@ App Images
 
 <p align="center">
   <img src="https://github.com/PiTrzos/btLED/assets/146988968/e79873c9-318a-4413-ace9-5f34865e3d0e" data-canonical-src="https://github.com/PiTrzos/btLED/assets/146988968/e79873c9-318a-4413-ace9-5f34865e3d0e" width="400" />
-  <img src="https://github.com/PiTrzos/btLED/assets/146988968/4514d861-1ec9-4a06-8ec3-118c71beb580" data-canonical-src="https://github.com/PiTrzos/btLED/assets/146988968/4514d861-1ec9-4a06-8ec3-118c71beb580" width="400" />
+  <img src="https://github.com/PiTrzos/btLED/assets/146988968/7e32ca87-6378-4b17-9f92-9b99947a0384" data-canonical-src="https://github.com/PiTrzos/btLED/assets/146988968/7e32ca87-6378-4b17-9f92-9b99947a0384" width="400" />
   <img src="https://github.com/PiTrzos/btLED/assets/146988968/5d154156-0a1a-4f08-bcab-313a846190b1" data-canonical-src="https://github.com/PiTrzos/btLED/assets/146988968/5d154156-0a1a-4f08-bcab-313a846190b1" width="400" />
   <img src="https://github.com/PiTrzos/btLED/assets/146988968/e941d229-7b80-429c-8307-6071973dcf12" data-canonical-src="https://github.com/PiTrzos/btLED/assets/146988968/e941d229-7b80-429c-8307-6071973dcf12" width="400" />
   <img src="https://github.com/PiTrzos/btLED/assets/146988968/ba313eb1-1d53-40a5-9d81-72eb57ccf21a" data-canonical-src="https://github.com/PiTrzos/btLED/assets/146988968/ba313eb1-1d53-40a5-9d81-72eb57ccf21a" width="400" />
